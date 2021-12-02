@@ -1,0 +1,31 @@
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(84, 61, 6, 1) 0%,
+    rgba(236, 80, 2, 1) 35%,
+    rgba(254, 191, 0, 1) 96%,
+    rgba(255, 149, 0, 1) 100%
+  );
+
+  color: rgb(233, 229, 229);
+  font-size: 1.5rem;
+  padding-top: 30px;
+ 
+ .colum2{
+     margin-top: 50px;
+     margin-right: 10px;
+
+   ul{
+       i{
+        .bi-geo-alt-fill::before{
+               margin-left: 5px;
+           }
+           
+       }
+   }
+ }
+ 
+    
+ }
+
+  

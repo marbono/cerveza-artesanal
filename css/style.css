@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.carousel-item {
+  height: 75vh;
+  min-height: 150px; }
+
+.carousel-inner img {
+  width: 100vw;
+  height: 100%; }
+
+.h1Productos {
+  margin-top: 30px;
+  margin-left: 50px; }
+
+.sectionCervezas {
+  margin-top: 75px;
+  margin-left: 30px;
+  padding-bottom: 100px; }
+  .sectionCervezas .card-body p {
+    font-size: 1.2rem;
+    padding-top: 4px; }
+  .sectionCervezas .card-body .btn-lg {
+    margin-top: 10px;
+    font-size: 1.7rem; }
+  .sectionCervezas .card-body .btn-lg a:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    color: black; }
+
+.container-fluid .titulo-qs {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 50px; }
+
+.container-fluid .parrafo-qs {
+  font-size: 1.7rem;
+  margin-left: 10px; }
+
+.container-fluid .img-qs img {
+  padding-left: 60px;
+  width: 65vw;
+  height: 50vh; }
+
+.error404 {
+  background-color: whitesmoke; }
+  .error404 img {
+    padding-top: 5px;
+    height: 95vh; }
+  .error404 button:hover {
+    background-color: #d81111;
+    color: white; }
+
+nav {
+  background: linear-gradient(90deg, #543d06 0%, #ec5002 35%, #febf00 96%, #ff9500 100%); }
+  nav #navbarSupportedContent {
+    margin-right: 70px;
+    margin-top: 30px; }
+  nav #navbarSupportedContent ul li a {
+    text-shadow: 5px 2px 5px rgba(107, 78, 35, 0.89);
+    color: #faf2ea;
+    font-size: 17px;
+    margin-right: 5px; }
+  nav #navbarSupportedContent ul li a:hover {
+    transform: scale(1.1); }
+
+footer {
+  background: linear-gradient(90deg, #543d06 0%, #ec5002 35%, #febf00 96%, #ff9500 100%);
+  color: #e9e5e5;
+  font-size: 1.5rem;
+  padding-top: 30px; }
+  footer .colum2 {
+    margin-top: 50px;
+    margin-right: 10px; }
+    footer .colum2 ul i .bi-geo-alt-fill::before {
+      margin-left: 5px; }
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #050505; }

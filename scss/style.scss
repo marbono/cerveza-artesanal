@@ -1,0 +1,19 @@
+
+@import "_commons";
+@import "_content";
+@import "_navBar";
+@import "_footer";
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+html {
+  font-size: 62.5%;}
+
+  body {
+   color: rgb(5, 5, 5)
+    
+  }
