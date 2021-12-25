@@ -22,7 +22,7 @@
 
     <title>Quienes somos</title>
   </head>
-  <body>
+  <body class="container-fluid">
     <header class="row">
       <nav class="navbar navbar-expand-md navbar-light" id="navegador">
         <div class="container">
@@ -65,8 +65,8 @@
           <h1 class="titulo-qs">Te contamos nuestra historia</h1>
         </div>
         <div class="row">
-          <div class="col col-md-4">
-            <article class="parrafo-qs">
+          <div class="col-12 col-md-4">
+            <div class="parrafo-qs">
               <p>
                 Somos un grupo de emprendedores irreverente y audaces, que
                 creemos e invertimos en Argentina. Estamos ubicados en el
@@ -79,57 +79,52 @@
                 catas, eventos especiales, degustaciones de nuevos productos, y
                 mucho más ¡Nuestra planta es tu casa!
               </p>
-            </article>
+            </div>
           </div>
 
-          <div class="col col-md-8">
-            <section class="img-qs">
-              <img
-                src="img/fabrica-cerveza2.jpg"
-                alt="imagen de la fabrica de cervezas"
-              />
-            </section>
+          <div class="col-12 col-md-8 img-qs text-center">
+            <img
+              src="/img/fabrica-cerveza2.jpg"
+              alt="imagen de la fabrica de cervezas"
+            />
           </div>
         </div>
       </div>
     </main>
-    <footer class="footer-wrap">
+    <footer class="container-fluid">
       <div class="container col-4 col-md-12">
         <div class="row">
           <div class="col">
             <img
               class="footer-img text-center"
-              src="img/estrellaPeregrina.png"
+              src="/img/estrella-peregrina.png"
               alt="logo"
               title="Logo"
             />
           </div>
           <div class="col colum2">
             <ul>
-              <div>
-                <i class="bi bi-geo-alt-fill"
-                  >25 de Mayo 885. San Miguel de Tucuman. Provincia de Tucuman -
-                  Argentina.</i
-                >
-              </div>
+              <p>
+                <i class="bi bi-geo-alt-fill"></i>25 de Mayo 885. Tucuman - Argentina.
+              </p>
 
-              <div>
-                <i class="bi bi-telephone-fill"
-                  >0381 481 8202 / 410 9133 / 410 9169 / 4644812</i
-                >
-              </div>
-              <div>
-                <i class="bi bi-envelope">contactos@cervezaperegrina.com</i>
-              </div>
-            </ul>
+              <p>
+                <i class="bi bi-telephone-fill"></i> 0381 481 8202 / 410 9133 /
+                410 9169 / 4644812
+              </p>
+              <p>
+                <i class="bi bi-envelope"></i>contactos@cervezaperegrina.com
+              </p>
           </div>
-          <div class="row">
-            <div class="col col-12 text-center">
-              <a href="error404.html"><i class="bi bi-facebook"></i></a>
-              <a href="error404.html"><i class="bi bi-twitter"></i></a>
-              <a href="error404.html"><i class="bi bi-instagram"></i></a>
-            </div>
-          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col col-12 text-center">
+          <a href="error404.html"><i class="bi bi-facebook"></i></a>
+          <a href="error404.html"><i class="bi bi-twitter"></i></a>
+          <a href="error404.html"><i class="bi bi-instagram"></i></a>
+          <a href="error404.html"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
       <section class="footer-footer">
@@ -141,6 +136,7 @@
         </div>
       </section>
     </footer>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

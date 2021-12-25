@@ -18,7 +18,7 @@
 
     <title>Contactos</title>
   </head>
-  <body>
+  <body class="container-fluid">
     <header class="row">
       <nav class="navbar navbar-expand-md navbar-light" id="navegador">
         <div class="container">
@@ -48,7 +48,7 @@
                 <a class="nav-link" href="/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/puntoVenta.html">Puntos de venta</a>
+                <a class="nav-link" href="/punto-venta.html">Puntos de venta</a>
               </li>
             </ul>
           </div>
@@ -60,7 +60,7 @@
       <h1 class="contacto">Contacto</h1>
       <div class="container">
         <div class="row">
-          <div class="col col-md-6 ">
+          <div class="col col-md-6 col-contacto">
             <form>
               <div class="form-group">
                 <label for="nombre">Nombre y apellido</label>
@@ -76,7 +76,7 @@
                   type="email"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="nombre@jemplo.com"
+                  
                 />
               </div>
               <div class="form-group">
@@ -102,7 +102,7 @@
               </div>
             </form>
             <div>
-              <a href="#"
+              <a href="/error404.html"
                 ><button type="button" class="btn btn-warning mt-3 btn-block">
                   Enviar formulario
                 </button></a
@@ -110,11 +110,11 @@
             </div>
           
           </div>
-          <div class="col col-md-6">
+          <div class="col col-md-6 col-contacto">
             <iframe
             class="gps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.6549171914835!2d-65.20387168508933!3d-26.819114383168007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c22c8e79627%3A0x75ce17342cdcd497!2s25%20de%20Mayo%20885%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1634855162783!5m2!1ses!2sar"
-            width="400"
+            width="450"
             height="350"
             style="border: 0"
             allowfullscreen=""
@@ -126,37 +126,40 @@
       </div>
     </main>
 
-    <footer class="footer-wrap">
+    <footer class="container-fluid">
       <div class="container col-4 col-md-12">
         <div class="row">
           <div class="col">
             <img
               class="footer-img text-center"
-              src="img/estrellaPeregrina.png"
+              src="/img/estrella-peregrina.png"
               alt="logo"
               title="Logo"
             />
           </div>
           <div class="col colum2">
             <ul>
-              <div>
-              <i class="bi bi-geo-alt-fill"
-                >25 de Mayo 885. San Miguel de Tucuman. Provincia de Tucuman -
-                Argentina.</i></div>
-              
-              <div><i class="bi bi-telephone-fill"
-                >0381 481 8202 / 410 9133 / 410 9169 / 4644812</i
-              ></div>
-              <div><i class="bi bi-envelope">contactos@cervezaperegrina.com</i></div>
-            </ul>
+              <p>
+                <i class="bi bi-geo-alt-fill"></i>25 de Mayo 885. Tucuman - Argentina.
+              </p>
+
+              <p>
+                <i class="bi bi-telephone-fill"></i> 0381 481 8202 / 410 9133 /
+                410 9169 / 4644812
+              </p>
+              <p>
+                <i class="bi bi-envelope"></i>contactos@cervezaperegrina.com
+              </p>
           </div>
-          <div class="row">
-            <div class="col col-12 text-center">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-            </div>
-          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col col-12 text-center">
+          <a href="error404.html"><i class="bi bi-facebook"></i></a>
+          <a href="error404.html"><i class="bi bi-twitter"></i></a>
+          <a href="error404.html"><i class="bi bi-instagram"></i></a>
+          <a href="error404.html"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
       <section class="footer-footer">
@@ -168,6 +171,7 @@
         </div>
       </section>
     </footer>
+
 
 
     <script

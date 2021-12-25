@@ -1,11 +1,19 @@
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .carousel-item {
-  height: 75vh;
+  max-height: 75vh;
+  width: 100%;
   min-height: 150px;
 }
 .carousel-inner {
   img {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: auto;
   }
 }
 // Inicio seccion productos
@@ -13,15 +21,15 @@
 .h1Productos {
   margin-top: 30px;
   margin-left: 50px;
+  font-size: 2.5rem;
 }
 .sectionCervezas {
   margin-top: 75px;
 
-  margin-left: 30px;
   padding-bottom: 100px;
   .card-body {
     p {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       padding-top: 4px;
     }
     .btn-lg {
@@ -43,22 +51,73 @@
 .container-fluid {
   .titulo-qs {
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 50px;
   }
   .parrafo-qs {
     font-size: 1.7rem;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   .img-qs img {
-    padding-left: 60px;
-    width: 65vw;
-    height: 50vh;
+    width: 60vw;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 40px;
   }
 }
 
-//error404
+//Fin seccion quienes somos
+
+//Inicio seccion de venta
+.cont1 {
+  padding-left: 15px;
+
+  p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+  }
+}
+.titulo {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.card-body mt-5 {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+//Fin seccion de venta
+
+//Inicio  seccion contacto
+
+.contacto {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+.col-contacto {
+  padding-right: 50px;
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+  a {
+    .btn {
+      font-size: 1.7rem;
+    }
+  }
+  .form-control {
+    font-size: 1.3rem;
+  }
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+// Fin seccion contacto
+
+// Inicio Error404
 
 .error404 {
   background-color: whitesmoke;
@@ -70,5 +129,8 @@
     background-color: rgb(216, 17, 17);
     color: white;
   }
+  .btn{
+    font-size: 20px;
+  }
 }
-//error404
+// Fin Error404
