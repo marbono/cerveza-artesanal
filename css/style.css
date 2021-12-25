@@ -2,24 +2,31 @@
   margin: 0;
   padding: 0; }
 
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
 .carousel-item {
-  height: 75vh;
+  max-height: 75vh;
+  width: 100%;
   min-height: 150px; }
 
 .carousel-inner img {
-  width: 100vw;
-  height: 100%; }
+  width: 100%;
+  height: auto; }
 
 .h1Productos {
   margin-top: 30px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  font-size: 2.5rem; }
 
 .sectionCervezas {
   margin-top: 75px;
-  margin-left: 30px;
   padding-bottom: 100px; }
   .sectionCervezas .card-body p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-top: 4px; }
   .sectionCervezas .card-body .btn-lg {
     margin-top: 10px;
@@ -31,17 +38,49 @@
 
 .container-fluid .titulo-qs {
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 50px; }
 
 .container-fluid .parrafo-qs {
   font-size: 1.7rem;
-  margin-left: 10px; }
+  margin-left: 15px; }
 
 .container-fluid .img-qs img {
-  padding-left: 60px;
-  width: 65vw;
-  height: 50vh; }
+  width: 60vw;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 40px; }
+
+.cont1 {
+  padding-left: 15px; }
+  .cont1 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem; }
+
+.titulo {
+  margin-top: 50px;
+  margin-left: 15px; }
+
+.card-body mt-5 h2 {
+  font-size: 3rem; }
+
+.contacto {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 50px; }
+
+.col-contacto {
+  padding-right: 50px;
+  margin-bottom: 50px;
+  font-size: 1.7rem; }
+  .col-contacto a .btn {
+    font-size: 1.7rem; }
+  .col-contacto .form-control {
+    font-size: 1.3rem; }
+
+.form-group {
+  margin-bottom: 15px; }
 
 .error404 {
   background-color: whitesmoke; }
@@ -51,17 +90,17 @@
   .error404 button:hover {
     background-color: #d81111;
     color: white; }
+  .error404 .btn {
+    font-size: 20px; }
 
 nav {
   background: linear-gradient(90deg, #543d06 0%, #ec5002 35%, #febf00 96%, #ff9500 100%); }
   nav #navbarSupportedContent {
-    margin-right: 70px;
     margin-top: 30px; }
   nav #navbarSupportedContent ul li a {
     text-shadow: 5px 2px 5px rgba(107, 78, 35, 0.89);
     color: #faf2ea;
-    font-size: 17px;
-    margin-right: 5px; }
+    font-size: 17px; }
   nav #navbarSupportedContent ul li a:hover {
     transform: scale(1.1); }
 
@@ -70,20 +109,36 @@ footer {
   color: #e9e5e5;
   font-size: 1.5rem;
   padding-top: 30px; }
+  footer a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 40px; }
+  footer a:hover {
+    transform: scale(1, 1);
+    color: rgba(0, 0, 0, 0.576); }
   footer .colum2 {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-right: 10px; }
-    footer .colum2 ul i .bi-geo-alt-fill::before {
-      margin-left: 5px; }
+    footer .colum2 ul {
+      padding-top: 10px; }
+      footer .colum2 ul p i {
+        font-size: 20px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        text-align: center; }
 
 header {
   width: 100vw;
   position: sticky;
   top: 0;
-  z-index: 2; }
+  z-index: 2;
+  font-family: Helvetica, Arial, sans-serif; }
 
 html {
   font-size: 62.5%; }
 
 body {
-  color: #050505; }
+  color: #050505;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden; }

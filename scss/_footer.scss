@@ -1,4 +1,14 @@
 footer {
+  a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 40px;
+  }
+  a:hover {
+    transform: scale(1,1);
+    color: rgba(0, 0, 0, 0.576);
+   
+  }
   background: linear-gradient(
     90deg,
     rgba(84, 61, 6, 1) 0%,
@@ -10,22 +20,21 @@ footer {
   color: rgb(233, 229, 229);
   font-size: 1.5rem;
   padding-top: 30px;
- 
- .colum2{
-     margin-top: 50px;
-     margin-right: 10px;
 
-   ul{
-       i{
-        .bi-geo-alt-fill::before{
-               margin-left: 5px;
-           }
-           
-       }
-   }
- }
- 
-    
- }
+  .colum2 {
+    margin-top: 40px;
+    margin-right: 10px;
 
-  
+    ul{
+      padding-top: 10px;
+      p{
+        i{
+          font-size: 20px;
+          margin-right: 10px;
+          margin-bottom: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

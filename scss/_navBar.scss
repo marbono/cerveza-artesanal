@@ -1,27 +1,24 @@
-
-nav{
-    background: linear-gradient(
+nav {
+  background: linear-gradient(
     90deg,
     rgba(84, 61, 6, 1) 0%,
     rgba(236, 80, 2, 1) 35%,
     rgba(254, 191, 0, 1) 96%,
     rgba(255, 149, 0, 1) 100%
   );
-  
+
   #navbarSupportedContent {
-    margin-right: 70px;
+  
     margin-top: 30px;
   }
   #navbarSupportedContent ul li a {
     text-shadow: 5px 2px 5px rgba(107, 78, 35, 0.89);
     color: #faf2ea;
     font-size: 17px;
-    margin-right: 5px;
+    
   }
   #navbarSupportedContent ul li a:hover {
     transform: scale(1.1);
-  }
-  
- 
     
+  }
 }
